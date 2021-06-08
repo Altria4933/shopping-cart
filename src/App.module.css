@@ -1,0 +1,181 @@
+body{
+  color :#222222
+}
+
+.Topbar {
+  width : 100%;
+  height: 30px;
+
+  background-color: #F6F6F7;
+
+  position: fixed;
+  top: 10px;
+  left: 0px; 
+}
+
+.MainContainer{
+  padding: 4% 12%;
+  margin-top: 50px;
+  box-sizing: border-box;
+
+  width: 100%;
+  display: flex;
+  align-items: top;
+}
+
+.ProductPicture{
+  width: 50%;
+}
+
+.ProductPicture > img {
+  width: 88%;
+  margin-left: 85px;
+  margin-top: -35px;
+  align-items: top;
+}
+
+.ProductDetails {
+  width: 50%;
+  margin-left: 180px;
+  margin-top: -50px;
+  align-items: top;
+}
+
+.ProductTitle{
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.ProductPrice{
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.ProductDesc{
+  font-size: 12px;
+  line-height: 180%;
+  margin-top: 28px;
+  color: #888888
+}
+
+.Size {
+  margin-top: 28px;
+}
+
+.Star {
+  color: #C90000
+}
+
+.SizeDesc{
+  font-size: 11px;
+  font-weight: 500;
+  color: #888888
+}
+
+.Buttons {
+  border: 1px outset #CCCCCC;
+  background-color: transparent;
+  height:40px;
+  width:40px;
+  margin-top: 12px;
+  margin-right: 5px;
+}
+
+.Buttons:focus{
+  border: 2px outset #222222;
+}
+
+.Add {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px outset #222222;
+  background-color: transparent;
+  height:35px;
+  width:145px;
+  margin-top: 16px;
+  margin-right: 5px;
+}
+
+.Add:hover{
+  background-color: black;
+  color: white;
+}
+
+.table{
+  margin-left: auto;
+  margin-right: 150px;
+  margin-top: 26px;
+  width:295px;
+  background-color: white;
+  border: 1px outset #CCCCCC;
+}
+
+.miniImg > img{
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  width: auto; 
+  max-width: 70px;
+}
+
+.miniDesc {
+  font-size: 12px;
+  line-height: 190%;
+}
+
+.miniPrice{
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 190%;
+}
+
+.cartbtn{
+  text-align: bottom;
+  font-size: 12px;
+  float: right;
+  margin-right: 150px;
+  height: 24px;
+  background-color: transparent;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .MainContainer {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 50px;
+  }
+
+  .ProductPicture > img{
+    width: auto;
+    max-width: fit-content;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+
+  .ProductDetails{
+    width: auto;
+    max-width: fit-content;
+    margin-left: 20px;
+    margin-right: auto;
+  }
+
+  .table {
+    margin-left: auto;
+    margin-right: 30px;
+  }
+
+  .cartbtn{
+    width: auto;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+}
+
+
+
+
