@@ -79,6 +79,7 @@ body{
   width:40px;
   margin-top: 12px;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .Buttons:focus{
@@ -95,6 +96,7 @@ body{
   width:145px;
   margin-top: 16px;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .Add:hover{
